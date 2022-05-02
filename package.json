@@ -1,0 +1,19 @@
+{
+  "name": "stream_api",
+  "version": "1.0.0",
+  "description": "stream certain kinds of data from github",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abdullahi Oladosu",
+  "license": "ISC",
+  "dependencies": {
+    "big-json": "^3.1.0",
+    "dotenv": "^16.0.0",
+    "gh-api-stream": "^1.0.3",
+    "pipeline-js": "^1.0.2"
+  }
+}
